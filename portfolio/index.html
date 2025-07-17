@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans text-gray-800">
+
+  <!-- ================= Header / Navigation ================= -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">MyPortfolio</h1>
+      <ul class="space-x-6 hidden md:flex">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= Home Section ================= -->
+  <section id="home" class="py-20 bg-gray-50 px-4">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+      <!-- Avatar -->
+      <img src="images/WhatsApp Image 2025-07-15 at 16.47.12_6b3766e9.jpg" alt="Profile" class="w-48 h-48 rounded-full mx-auto md:mx-0 shadow-md">
+      <!-- Intro -->
+      <div class="text-center md:text-left">
+        <h2 class="text-3xl font-bold mb-2">Hi, I'm T VIKRAM</h2>
+        <p class="text-xl text-blue-600 mb-2">Web Developer & Designer</p>
+        <p class="mb-4 italic">"Turning ideas into code, one project at a time."</p>
+        <a href="/pages/RESUME.pdf" download
+          class="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Download
+          Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= About Section ================= -->
+  <section id="about" class="py-20 bg-white px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+
+      <!-- Intro -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <p class="mb-4">
+          Hi, I’m Vikram Durai, a passionate computer science student and aspiring data scientist.<br> I specialize in building AI-driven solutions and web applications that solve real-world problems.<br> My projects focus on leveraging machine learning, data analysis, and clean UI design to create impactful user experiences. Currently,<br> I’m working on AIpinash, a platform to enhance road safety using predictive analytics. <br>I enjoy learning new technologies and applying them to innovative projects
+        </p>
+      </div>
+
+      <!-- Skills -->
+      <div class="mb-14">
+        <h3 class="text-2xl font-semibold mb-4">Skills</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <span class="bg-blue-100 text-blue-700 px-3 py-2 rounded text-center">HTML</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-2 rounded text-center">CSS</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-2 rounded text-center">JavaScript</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-2 rounded text-center">Tailwind CSS</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-2 rounded text-center">python</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-2 rounded text-center">java</span>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-6">Education & Experience</h3>
+        <div class="space-y-6">
+          <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+            <h4 class="text-xl font-semibold">Full stack Intern - NSIC</h4>
+            <span class="text-sm text-gray-500">Jul 2025 – Aug 2025</span>
+            <p class="mt-2">Building complete solutions from scratch – the NSIC Full Stack internship empowered me to think like a developer, design like a user, and deliver like a professional.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+            <h4 class="text-xl font-semibold">B.E in Computer Science and Engineering(AI&ML) - Paavai College of Engineeering</h4>
+            <span class="text-sm text-gray-500">2023 – 2027</span>
+            <p class="mt-2">Exploring the future of technology through my degree from predictive models to intelligent automation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Projects Section ================= -->
+  <section id="projects" class="py-20 bg-gray-50 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+
+      <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transition transform hover:shadow-lg">
+          <img src="https://i.pinimg.com/originals/d2/04/db/d204db0c10fbf554c236764ba1c520e5.jpg" alt="Project 1" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+            <p class="text-sm mb-3">A responsive personal portfolio site with smooth scroll and Tailwind design.</p>
+            <p class="text-sm text-gray-500 mb-3">Tools: HTML, Tailwind CSS</p>
+            <a href="https://github.com/VIKRAMDURAI730/PORTFOLIO.git" class="text-blue-600 hover:underline text-sm">GitHub Repo</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transition transform hover:shadow-lg">
+          <img src="https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/3787695d-19d6-4cfb-889a-df40edf8ecd6/2802036066/fittrack-myhealth-track-scale-screenshot.png" alt="Project 2" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">track fit</h3>
+            <p class="text-sm mb-3">TrackFit is a fitness tracking dashboard that allows users to log workouts, set goals, and view analytics of their progress over time. It’s designed for fitness enthusiasts to stay motivated and organized.
+</p>
+            <p class="text-sm text-gray-500 mb-3">Tools: JS, API, Tailwind</p>
+            
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transition transform hover:shadow-lg">
+          <img src="https://img.freepik.com/premium-psd/creative-concept-online-easy-online-shopping-by-social-media_565208-172.jpg?semt=ais_hybrid&w=740" alt="Project 3" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">shop ease</h3>
+            <p class="text-sm mb-3">ShopEase is a modern e-commerce website for an online clothing store. It features a clean UI and simulates a real shopping experience with a functional cart and product filters</p>
+            <p class="text-sm text-gray-500 mb-3">Tools: HTML, JS, Tailwind</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Contact Section ================= -->
+  <section id="contact" class="py-20 bg-white px-4">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Contact Me</h2>
+
+      <form class="space-y-6">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" id="name" name="name" required
+            class="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:ring focus:ring-blue-200 px-4 py-2">
+        </div>
+
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="email" name="email" required
+            class="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:ring focus:ring-blue-200 px-4 py-2">
+        </div>
+
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+          <textarea id="message" name="message" rows="5" required
+            class="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:ring focus:ring-blue-200 px-4 py-2 resize-none"></textarea>
+        </div>
+
+        <button type="submit"
+          class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition shadow-md">
+          Send Message
+        </button>
+      </form>
+<br>
+
+  <!-- ================= Footer ================= -->
+  <footer class="bg-gray-100 text-center py-6">
+    <p class="text-sm text-gray-600">&copy; 2025 T VIKRAM. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
